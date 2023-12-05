@@ -1,2 +1,7 @@
-# chat-app-preview
-Responsive Design page chat app preview
+# Frontend Mentor - Chat app CSS illustration
+
+![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
+
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.

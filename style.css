@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.first-style {
+    width: 50%;
+    height: clamp(6rem, -4.318rem + 165.091vw, 34.375rem);
+    align-self: flex-start;
+    border-bottom-right-radius: clamp(4rem, 0.909rem + 49.455vw, 12.5rem);
+    background-color: hsl(264, 100%, 61%);
+    background-image:
+        linear-gradient(to top,
+            hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+}
+
+.second-style {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem) solid white;
+    border-radius: clamp(0.5rem, 0.227rem + 4.364vw, 1.25rem);
+    background-color: hsl(270, 20%, 96%);
+    position: absolute;
+    top: clamp(1.5rem, -0.227rem + 27.636vw, 6.25rem);
+    box-shadow: 0px 10px 30px -20px black;
+}
+
+.upper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(264, 100%, 61%);
+    background-image:
+        linear-gradient(to right,
+            hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem) clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem) clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem) clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.upper h5 {
+    color: white;
+    font-size: clamp(0.1rem, -0.045rem + 2.327vw, 0.5rem);
+}
+
+.header {
+    background-color: white;
+    width: 60%;
+    height: clamp(0.3rem, -0.159rem + 7.348vw, 1.563rem);
+    border-bottom-left-radius: clamp(0.3rem, 0.068rem + 3.712vw, 0.938rem);
+    border-bottom-right-radius: clamp(0.3rem, 0.068rem + 3.712vw, 0.938rem);
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: clamp(2rem, 0.455rem + 24.727vw, 6.25rem);
+    padding-bottom: clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem);
+    gap: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.pico {
+    display: flex;
+    align-items: center;
+    width: 12%;
+}
+
+.pico>img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: hsl(270, 20%, 96%);
+    width: 100%;
+    font-size: clamp(0.09rem, -0.132rem + 3.549vw, 0.7rem);
+    gap: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    color: hsl(289, 100%, 72%);
+    padding: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem) clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem);
+    border-radius: 0 0 clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem) clamp(0.4rem, 0.091rem + 4.945vw, 1.25rem);
+}
+
+.first-middle {
+    width: 60%;
+    background-color: hsl(276, 11%, 91%);
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.second-middle {
+    width: 60%;
+    background-color: hsl(276, 11%, 91%);
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.third-middle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 70%;
+    gap: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.dog-1 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.dog-1>img {
+    width: 100%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.dog-2 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.dog-2>img {
+    width: 100%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.dog-3 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.dog-3>img {
+    width: 100%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.fourth-middle {
+    width: 60%;
+    background-color: white;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    align-self: flex-end;
+}
+
+.fifth-middle {
+    width: 40%;
+    background-color: white;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+    align-self: flex-end;
+}
+
+.sixth-middle {
+    width: 60%;
+    background-color: hsl(276, 11%, 91%);
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.seventh-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(264, 100%, 61%);
+    background-image:
+        linear-gradient(to left,
+            hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 75%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.circle {
+    width: clamp(0.2rem, -0.182rem + 6.109vw, 1.25rem);
+    height: clamp(0.2rem, -0.182rem + 6.109vw, 1.25rem);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.eighth-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(264, 100%, 61%);
+    background-image:
+        linear-gradient(to right,
+            hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    width: 75%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.ninth-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    border-radius: clamp(0.2rem, 0.045rem + 2.473vw, 0.625rem);
+}
+
+.circle-arrow {
+    width: clamp(0.3rem, -0.159rem + 7.348vw, 1.563rem);
+    height: clamp(0.3rem, -0.159rem + 7.348vw, 1.563rem);
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-arrow>img {
+    width: 40%;
+}
+
+.third-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    top: clamp(2rem, -1.364rem + 53.818vw, 11.25rem);
+}
+
+.third-style>h1 {
+    font-size: clamp(0.5rem, -0.045rem + 8.727vw, 2rem);
+    margin-bottom: 0;
+}
+
+.third-style>h5 {
+    font-size: clamp(0.2rem, -0.029rem + 3.665vw, 0.83rem);
+    line-height: clamp(0.3rem, -0.1rem + 6.4vw, 1.4rem);
+}
+
+@media(min-width:376px) {
+
+    .container {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .first-style {
+        width: clamp(10rem, 4.699rem + 22.556vw, 25rem);
+        height: clamp(15rem, 5.945rem + 38.534vw, 40.625rem);
+        border-bottom-right-radius: clamp(7rem, 2.848rem + 17.669vw, 18.75rem);
+        border-bottom-left-radius: clamp(7rem, 2.848rem + 17.669vw, 18.75rem);
+    }
+
+    .second-style {
+        width: 17%;
+        border: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem) solid white;
+        border-radius: clamp(0.6rem, 0.083rem + 2.2vw, 2.063rem);
+        margin-top: clamp(2.5rem, 1.175rem + 5.639vw, 6.25rem);
+        position: relative;
+        right: clamp(1.5rem, 0.484rem + 4.323vw, 4.375rem);
+        top: auto;
+    }
+
+    .upper {
+        width: 100%;
+        gap: clamp(0.1rem, -0.041rem + 0.602vw, 0.5rem);
+        border-radius: clamp(0.4rem, 0.1rem + 1.278vw, 1.25rem) clamp(0.4rem, 0.1rem + 1.278vw, 1.25rem) clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem) clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem);
+    }
+
+    .header {
+        width: 50%;
+        height: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+        border-bottom-left-radius: clamp(0.2rem, 0.006rem + 0.827vw, 0.75rem);
+        border-bottom-right-radius: clamp(0.2rem, 0.006rem + 0.827vw, 0.75rem);
+    }
+
+    .profile-pic {
+        padding-right: clamp(2rem, 0.498rem + 6.391vw, 6.25rem);
+        padding-bottom: clamp(0.2rem, 0.05rem + 0.639vw, 0.625rem);
+        gap: clamp(0.1rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .pico {
+        width: 20%;
+    }
+
+    .upper h5 {
+        margin: 0;
+        font-size: clamp(0.1rem, -0.163rem + 0.737vw, 0.5rem);
+    }
+
+    .middle {
+        font-size: clamp(0.1rem, -0.163rem + 0.737vw, 0.5rem);
+        gap: clamp(0.1rem, -0.086rem + 0.789vw, 0.625rem);
+        padding: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem) clamp(0.4rem, 0.1rem + 1.278vw, 1.25rem);
+        border-radius: 0 0 20px 20px;
+    }
+
+    .first-middle {
+        width: 50%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .second-middle {
+        width: 50%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .third-middle {
+        gap: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .dog-1>img {
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .dog-2>img {
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .dog-3>img {
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .fourth-middle {
+        width: 45%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .fifth-middle {
+        width: 40%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .sixth-middle {
+        width: 50%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .seventh-middle {
+        width: 65%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .circle {
+        width: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+        height: clamp(0.3rem, 0.075rem + 0.959vw, 0.938rem);
+    }
+
+    .eighth-middle {
+        width: 65%;
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .ninth-middle {
+        border-radius: clamp(0.2rem, -0.086rem + 0.789vw, 0.625rem);
+    }
+
+    .circle-arrow {
+        width: clamp(0.5rem, 0.124rem + 1.598vw, 1.563rem);
+        height: clamp(0.5rem, 0.124rem + 1.598vw, 1.563rem);
+    }
+
+    .third-style {
+        align-items: flex-start;
+        text-align: left;
+        width: 28%;
+        top: auto;
+    }
+
+    .third-style>h1 {
+        font-size: clamp(0.7rem, 0.241rem + 1.955vw, 2rem);
+    }
+
+    .third-style>h5 {
+        font-size: clamp(0.2rem, -0.023rem + 0.947vw, 0.83rem);
+        line-height: clamp(0.4rem, 0.047rem + 1.504vw, 1.4rem);
+    }
+}
